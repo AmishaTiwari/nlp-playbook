@@ -9,6 +9,17 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Environment / secrets (good practice)
+# Environment / secrets
 .env
 .venv/
+
+# Model artifacts
+models/
+
+# Packaging / build
+*.egg-info/
+build/
+dist/
+
+# Logs
+*.log
